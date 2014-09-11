@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>663D5F1E-E911-4181-9446-1F8DC6F68E6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>yahoo-finance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BA0DA5F-352C-430E-B8D6-EA55B163C854</key>
+		<string>https://github.com/noantitroyans/yahoo-finance.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>yahoo-finance.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BA0DA5F-352C-430E-B8D6-EA55B163C854</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/noantitroyans/yahoo-finance.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BA0DA5F-352C-430E-B8D6-EA55B163C854</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BA0DA5F-352C-430E-B8D6-EA55B163C854</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yahoo-finance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

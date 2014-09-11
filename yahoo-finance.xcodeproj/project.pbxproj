@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4266C019C185DA004069FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266BF19C185DA004069FD /* Foundation.framework */; };
+		6A4266C219C185DA004069FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266C119C185DA004069FD /* CoreGraphics.framework */; };
+		6A4266C419C185DA004069FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266C319C185DA004069FD /* UIKit.framework */; };
+		6A4266CA19C185DA004069FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4266C819C185DA004069FD /* InfoPlist.strings */; };
+		6A4266CC19C185DA004069FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266CB19C185DA004069FD /* main.m */; };
+		6A4266D019C185DA004069FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266CF19C185DA004069FD /* AppDelegate.m */; };
+		6A4266D319C185DA004069FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4266D119C185DA004069FD /* Main.storyboard */; };
+		6A4266D619C185DA004069FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266D519C185DA004069FD /* ViewController.m */; };
+		6A4266D819C185DA004069FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4266D719C185DA004069FD /* Images.xcassets */; };
+		6A4266DF19C185DA004069FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266DE19C185DA004069FD /* XCTest.framework */; };
+		6A4266E019C185DA004069FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266BF19C185DA004069FD /* Foundation.framework */; };
+		6A4266E119C185DA004069FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4266C319C185DA004069FD /* UIKit.framework */; };
+		6A4266E919C185DA004069FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4266E719C185DA004069FD /* InfoPlist.strings */; };
+		6A4266EB19C185DA004069FD /* yahoo_financeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266EA19C185DA004069FD /* yahoo_financeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A4266E219C185DA004069FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4266B419C185DA004069FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4266BB19C185DA004069FD;
+			remoteInfo = "yahoo-finance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A4266BC19C185DA004069FD /* yahoo-finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yahoo-finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4266BF19C185DA004069FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A4266C119C185DA004069FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A4266C319C185DA004069FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A4266C719C185DA004069FD /* yahoo-finance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yahoo-finance-Info.plist"; sourceTree = "<group>"; };
+		6A4266C919C185DA004069FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A4266CB19C185DA004069FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4266CD19C185DA004069FD /* yahoo-finance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yahoo-finance-Prefix.pch"; sourceTree = "<group>"; };
+		6A4266CE19C185DA004069FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A4266CF19C185DA004069FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A4266D219C185DA004069FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A4266D419C185DA004069FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A4266D519C185DA004069FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A4266D719C185DA004069FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A4266DD19C185DA004069FD /* yahoo-financeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yahoo-financeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4266DE19C185DA004069FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A4266E619C185DA004069FD /* yahoo-financeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yahoo-financeTests-Info.plist"; sourceTree = "<group>"; };
+		6A4266E819C185DA004069FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A4266EA19C185DA004069FD /* yahoo_financeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yahoo_financeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4266B919C185DA004069FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266C219C185DA004069FD /* CoreGraphics.framework in Frameworks */,
+				6A4266C419C185DA004069FD /* UIKit.framework in Frameworks */,
+				6A4266C019C185DA004069FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4266DA19C185DA004069FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266DF19C185DA004069FD /* XCTest.framework in Frameworks */,
+				6A4266E119C185DA004069FD /* UIKit.framework in Frameworks */,
+				6A4266E019C185DA004069FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4266B319C185DA004069FD = {
+			isa = PBXGroup;
+			children = (
+				6A4266C519C185DA004069FD /* yahoo-finance */,
+				6A4266E419C185DA004069FD /* yahoo-financeTests */,
+				6A4266BE19C185DA004069FD /* Frameworks */,
+				6A4266BD19C185DA004069FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4266BD19C185DA004069FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266BC19C185DA004069FD /* yahoo-finance.app */,
+				6A4266DD19C185DA004069FD /* yahoo-financeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4266BE19C185DA004069FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266BF19C185DA004069FD /* Foundation.framework */,
+				6A4266C119C185DA004069FD /* CoreGraphics.framework */,
+				6A4266C319C185DA004069FD /* UIKit.framework */,
+				6A4266DE19C185DA004069FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4266C519C185DA004069FD /* yahoo-finance */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266CE19C185DA004069FD /* AppDelegate.h */,
+				6A4266CF19C185DA004069FD /* AppDelegate.m */,
+				6A4266D119C185DA004069FD /* Main.storyboard */,
+				6A4266D419C185DA004069FD /* ViewController.h */,
+				6A4266D519C185DA004069FD /* ViewController.m */,
+				6A4266D719C185DA004069FD /* Images.xcassets */,
+				6A4266C619C185DA004069FD /* Supporting Files */,
+			);
+			path = "yahoo-finance";
+			sourceTree = "<group>";
+		};
+		6A4266C619C185DA004069FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266C719C185DA004069FD /* yahoo-finance-Info.plist */,
+				6A4266C819C185DA004069FD /* InfoPlist.strings */,
+				6A4266CB19C185DA004069FD /* main.m */,
+				6A4266CD19C185DA004069FD /* yahoo-finance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A4266E419C185DA004069FD /* yahoo-financeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266EA19C185DA004069FD /* yahoo_financeTests.m */,
+				6A4266E519C185DA004069FD /* Supporting Files */,
+			);
+			path = "yahoo-financeTests";
+			sourceTree = "<group>";
+		};
+		6A4266E519C185DA004069FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4266E619C185DA004069FD /* yahoo-financeTests-Info.plist */,
+				6A4266E719C185DA004069FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4266BB19C185DA004069FD /* yahoo-finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4266EE19C185DA004069FD /* Build configuration list for PBXNativeTarget "yahoo-finance" */;
+			buildPhases = (
+				6A4266B819C185DA004069FD /* Sources */,
+				6A4266B919C185DA004069FD /* Frameworks */,
+				6A4266BA19C185DA004069FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yahoo-finance";
+			productName = "yahoo-finance";
+			productReference = 6A4266BC19C185DA004069FD /* yahoo-finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4266DC19C185DA004069FD /* yahoo-financeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4266F119C185DA004069FD /* Build configuration list for PBXNativeTarget "yahoo-financeTests" */;
+			buildPhases = (
+				6A4266D919C185DA004069FD /* Sources */,
+				6A4266DA19C185DA004069FD /* Frameworks */,
+				6A4266DB19C185DA004069FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4266E319C185DA004069FD /* PBXTargetDependency */,
+			);
+			name = "yahoo-financeTests";
+			productName = "yahoo-financeTests";
+			productReference = 6A4266DD19C185DA004069FD /* yahoo-financeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4266B419C185DA004069FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "ltd Elektronnie Tehnologii";
+				TargetAttributes = {
+					6A4266DC19C185DA004069FD = {
+						TestTargetID = 6A4266BB19C185DA004069FD;
+					};
+				};
+			};
+			buildConfigurationList = 6A4266B719C185DA004069FD /* Build configuration list for PBXProject "yahoo-finance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A4266B319C185DA004069FD;
+			productRefGroup = 6A4266BD19C185DA004069FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4266BB19C185DA004069FD /* yahoo-finance */,
+				6A4266DC19C185DA004069FD /* yahoo-financeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4266BA19C185DA004069FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266D819C185DA004069FD /* Images.xcassets in Resources */,
+				6A4266CA19C185DA004069FD /* InfoPlist.strings in Resources */,
+				6A4266D319C185DA004069FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4266DB19C185DA004069FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266E919C185DA004069FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4266B819C185DA004069FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266D619C185DA004069FD /* ViewController.m in Sources */,
+				6A4266D019C185DA004069FD /* AppDelegate.m in Sources */,
+				6A4266CC19C185DA004069FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4266D919C185DA004069FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4266EB19C185DA004069FD /* yahoo_financeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4266E319C185DA004069FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4266BB19C185DA004069FD /* yahoo-finance */;
+			targetProxy = 6A4266E219C185DA004069FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A4266C819C185DA004069FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4266C919C185DA004069FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A4266D119C185DA004069FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4266D219C185DA004069FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A4266E719C185DA004069FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4266E819C185DA004069FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A4266EC19C185DA004069FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A4266ED19C185DA004069FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4266EF19C185DA004069FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo-finance/yahoo-finance-Prefix.pch";
+				INFOPLIST_FILE = "yahoo-finance/yahoo-finance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A4266F019C185DA004069FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo-finance/yahoo-finance-Prefix.pch";
+				INFOPLIST_FILE = "yahoo-finance/yahoo-finance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A4266F219C185DA004069FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yahoo-finance.app/yahoo-finance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo-finance/yahoo-finance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "yahoo-financeTests/yahoo-financeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A4266F319C185DA004069FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yahoo-finance.app/yahoo-finance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo-finance/yahoo-finance-Prefix.pch";
+				INFOPLIST_FILE = "yahoo-financeTests/yahoo-financeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4266B719C185DA004069FD /* Build configuration list for PBXProject "yahoo-finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4266EC19C185DA004069FD /* Debug */,
+				6A4266ED19C185DA004069FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4266EE19C185DA004069FD /* Build configuration list for PBXNativeTarget "yahoo-finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4266EF19C185DA004069FD /* Debug */,
+				6A4266F019C185DA004069FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A4266F119C185DA004069FD /* Build configuration list for PBXNativeTarget "yahoo-financeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4266F219C185DA004069FD /* Debug */,
+				6A4266F319C185DA004069FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4266B419C185DA004069FD /* Project object */;
+}
