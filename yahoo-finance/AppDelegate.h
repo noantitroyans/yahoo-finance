@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) NSDictionary * currencyExchangeArray;
+@property (strong, nonatomic) NSMutableArray * TempArray;
+
+@property uint selectedTabIndex;
 
 @end

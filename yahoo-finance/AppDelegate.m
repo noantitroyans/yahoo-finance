@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-@synthesize currencyExchangeArray;
+@synthesize TempArray = _TempArray, selectedTabIndex = _selectedTabIndex;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

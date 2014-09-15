@@ -23,6 +23,10 @@
 		6A4266EB19C185DA004069FD /* yahoo_financeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266EA19C185DA004069FD /* yahoo_financeTests.m */; };
 		6A4266F619C19E20004069FD /* currencyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266F519C19E20004069FD /* currencyTableViewCell.m */; };
 		6A4266F919C1ADF1004069FD /* YahooAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4266F819C1ADF1004069FD /* YahooAPIConnection.m */; };
+		6A7B6C5B19C6C57C006A1DFC /* ExchangeHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B6C5A19C6C57C006A1DFC /* ExchangeHistoryViewController.m */; };
+		6A7B6C5E19C6E8AE006A1DFC /* myTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B6C5D19C6E8AE006A1DFC /* myTabBarController.m */; };
+		6A7B6C6119C6F5DB006A1DFC /* USD.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B6C5F19C6F5DB006A1DFC /* USD.png */; };
+		6A7B6C6219C6F5DB006A1DFC /* USD@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B6C6019C6F5DB006A1DFC /* USD@2x.png */; };
 		6AD3421119C2B21000CD97D9 /* AUD.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3420919C2B21000CD97D9 /* AUD.png */; };
 		6AD3421219C2B21000CD97D9 /* AUD@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3420A19C2B21000CD97D9 /* AUD@2x.png */; };
 		6AD3421319C2B21000CD97D9 /* CNY.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3420B19C2B21000CD97D9 /* CNY.png */; };
@@ -69,6 +73,12 @@
 		6A4266F719C1ADF1004069FD /* YahooAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooAPIConnection.h; sourceTree = "<group>"; };
 		6A4266F819C1ADF1004069FD /* YahooAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooAPIConnection.m; sourceTree = "<group>"; };
 		6A4266FD19C1C285004069FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6A7B6C5919C6C57C006A1DFC /* ExchangeHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeHistoryViewController.h; sourceTree = "<group>"; };
+		6A7B6C5A19C6C57C006A1DFC /* ExchangeHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeHistoryViewController.m; sourceTree = "<group>"; };
+		6A7B6C5C19C6E8AE006A1DFC /* myTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTabBarController.h; path = ../myTabBarController.h; sourceTree = "<group>"; };
+		6A7B6C5D19C6E8AE006A1DFC /* myTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTabBarController.m; path = ../myTabBarController.m; sourceTree = "<group>"; };
+		6A7B6C5F19C6F5DB006A1DFC /* USD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USD.png; sourceTree = "<group>"; };
+		6A7B6C6019C6F5DB006A1DFC /* USD@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USD@2x.png"; sourceTree = "<group>"; };
 		6AD3420919C2B21000CD97D9 /* AUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AUD.png; sourceTree = "<group>"; };
 		6AD3420A19C2B21000CD97D9 /* AUD@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AUD@2x.png"; sourceTree = "<group>"; };
 		6AD3420B19C2B21000CD97D9 /* CNY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNY.png; sourceTree = "<group>"; };
@@ -143,6 +153,8 @@
 				6A4266CE19C185DA004069FD /* AppDelegate.h */,
 				6A4266CF19C185DA004069FD /* AppDelegate.m */,
 				6A4266D119C185DA004069FD /* Main.storyboard */,
+				6A7B6C5C19C6E8AE006A1DFC /* myTabBarController.h */,
+				6A7B6C5D19C6E8AE006A1DFC /* myTabBarController.m */,
 				6A4266D419C185DA004069FD /* ViewController.h */,
 				6A4266D519C185DA004069FD /* ViewController.m */,
 				6A4266D719C185DA004069FD /* Images.xcassets */,
@@ -153,6 +165,8 @@
 				6A4266F819C1ADF1004069FD /* YahooAPIConnection.m */,
 				6AD3421919C2C31F00CD97D9 /* CurrencyExchangeClass.h */,
 				6AD3421A19C2C31F00CD97D9 /* CurrencyExchangeClass.m */,
+				6A7B6C5919C6C57C006A1DFC /* ExchangeHistoryViewController.h */,
+				6A7B6C5A19C6C57C006A1DFC /* ExchangeHistoryViewController.m */,
 			);
 			path = "yahoo-finance";
 			sourceTree = "<group>";
@@ -189,6 +203,8 @@
 		6AD3420819C2B21000CD97D9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A7B6C5F19C6F5DB006A1DFC /* USD.png */,
+				6A7B6C6019C6F5DB006A1DFC /* USD@2x.png */,
 				6AD3420919C2B21000CD97D9 /* AUD.png */,
 				6AD3420A19C2B21000CD97D9 /* AUD@2x.png */,
 				6AD3420B19C2B21000CD97D9 /* CNY.png */,
@@ -283,10 +299,12 @@
 				6AD3421819C2B21000CD97D9 /* TRY@2x.png in Resources */,
 				6AD3421519C2B21000CD97D9 /* RUB.png in Resources */,
 				6A4266D819C185DA004069FD /* Images.xcassets in Resources */,
+				6A7B6C6119C6F5DB006A1DFC /* USD.png in Resources */,
 				6AD3421219C2B21000CD97D9 /* AUD@2x.png in Resources */,
 				6A4266CA19C185DA004069FD /* InfoPlist.strings in Resources */,
 				6AD3421719C2B21000CD97D9 /* TRY.png in Resources */,
 				6AD3421619C2B21000CD97D9 /* RUB@2x.png in Resources */,
+				6A7B6C6219C6F5DB006A1DFC /* USD@2x.png in Resources */,
 				6A4266D319C185DA004069FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +329,8 @@
 				6A4266F619C19E20004069FD /* currencyTableViewCell.m in Sources */,
 				6A4266D619C185DA004069FD /* ViewController.m in Sources */,
 				6A4266D019C185DA004069FD /* AppDelegate.m in Sources */,
+				6A7B6C5E19C6E8AE006A1DFC /* myTabBarController.m in Sources */,
+				6A7B6C5B19C6C57C006A1DFC /* ExchangeHistoryViewController.m in Sources */,
 				6A4266CC19C185DA004069FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
